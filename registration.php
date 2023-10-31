@@ -80,6 +80,12 @@ if (isset($_SESSION["user"])) {
             <div class="form-group">
                 <input type="password" class="form-control" name="repeat_password" placeholder="Repeat Password:">
             </div>
+           div class="form-group">
+                <input type="text" class="form-control" name="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" name="Number" placeholder="Number">
+            </div>
             <div class="form-btn">
                 <input type="submit" class="btn btn-primary" value="Register" name="submit">
             </div>
